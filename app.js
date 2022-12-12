@@ -80,35 +80,3 @@ function game() {
         computerScore = 0;
     }
 }
-
-
-// function rockPaperScissors(playerChoice, computerSelection) {
-//     computerSelection = getComputerChoice();
-//     let playerSelection = String(playerChoice).toLowerCase();
-//     if(playerSelection === computerSelection) {
-//         winner = 'tie';
-//         return console.log(`You chose ${playerSelection} and the computer chose ${computerSelection}. The round is a tie!`);
-//     } else if(playerSelection === 'scissors') {
-//         if(computerSelection === 'rock') {
-//             winner = 'computer';
-//         } else if(computerSelection === 'paper') {
-//             winner = 'player';
-//         }
-//     } else if(playerSelection === 'rock') {
-//         if(computerSelection === 'paper') {
-//             winner = 'computer';
-//         } else if(computerSelection === 'scissors') {
-//             winner = 'player';
-//         }
-//     } else if (playerSelection === 'paper') {
-//         if(computerSelection === 'rock') {
-//             winner = 'player';
-//         } else if(computerSelection === 'scissors'); {
-//             winner = 'computer';
-//         }
-//     } else {
-//         return `Invalid choice! Please choose rock, paper, or scissors.`;
-//     }
-//     console.log(`You chose ${playerSelection} and the computer chose ${computerSelection}. The winner is ${winner}!`);
-//     return winner;
-// }
